@@ -39,6 +39,11 @@ table {
     border-spacing: 0;
 }
 
+tr {
+    margin-bottom: 8px;
+    display: block;
+}
+
 td {
     padding: 3px 0;
     vertical-align: top;
