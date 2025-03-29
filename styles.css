@@ -76,6 +76,14 @@ label {
     line-height: 1.2;
 }
 
+/* Add spacing after specific fields */
+#item1-name, #item2-name,
+#item1-unit-type, #item2-unit-type,
+#item1-price, #item2-price,
+#item1-sale, #item2-sale {
+    margin-bottom: 20px;
+}
+
 input[type="text"],
 input[type="number"],
 select {
