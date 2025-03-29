@@ -39,38 +39,38 @@ table {
     border-spacing: 0;
 }
 
-tr {
-    margin-bottom: 5px;
+td {
+    padding: 3px 0;
+    vertical-align: top;
 }
 
-td {
-    padding: 2px;
+td:first-child {
+    width: 45%;
+    padding-right: 10px;
 }
 
 label {
-    display: block;
-    margin-bottom: 2px;
-    font-size: 0.9em;
+    display: inline-block;
+    white-space: normal;
+    line-height: 1.2;
 }
 
 input[type="text"],
 input[type="number"],
 select {
     width: 100%;
-    padding: 6px;
-    margin-bottom: 5px;
+    padding: 8px;
     border: 1px solid #444;
     border-radius: 4px;
     background-color: #333;
     color: #e0e0e0;
     box-sizing: border-box;
-    font-size: 0.9em;
 }
 
 button {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     background-color: #bb86fc;
     color: white;
     border: none;
@@ -90,5 +90,4 @@ button:hover {
     padding: 10px;
     background: #2d2d2d;
     border-radius: 4px;
-    line-height: 1.3;
 }
