@@ -40,8 +40,24 @@ table {
 }
 
 tr {
-    margin-bottom: 8px;
     display: block;
+}
+
+/* Add extra spacing after specific fields */
+tr:has(#item1-name),
+tr:has(#item2-name),
+tr:has(#item1-unit-type),
+tr:has(#item2-unit-type),
+tr:has(#item1-price),
+tr:has(#item2-price),
+tr:has(#item1-sale),
+tr:has(#item2-sale) {
+    margin-bottom: 20px;
+}
+
+/* Regular spacing for other rows */
+tr:not(:has(#item1-name)):not(:has(#item2-name)):not(:has(#item1-unit-type)):not(:has(#item2-unit-type)):not(:has(#item1-price)):not(:has(#item2-price)):not(:has(#item1-sale)):not(:has(#item2-sale)) {
+    margin-bottom: 8px;
 }
 
 td {
