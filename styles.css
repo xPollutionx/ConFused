@@ -8,7 +8,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
@@ -20,35 +20,42 @@ h1 {
 
 .calculator {
     background: #1e1e1e;
-    padding: 25px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .item-table {
-    float: left;
-    width: 48%;
-    margin-right: 2%;
-}
-
-.item-table:last-child {
-    margin-right: 0;
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .item-table h2 {
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 table {
     width: 100%;
-    border-spacing: 0 12px;
+    border-spacing: 0;
+}
+
+table tr {
+    margin-bottom: 15px;
+    display: block;
+}
+
+table td {
+    display: block;
+    padding: 5px 0;
 }
 
 label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     font-size: 16px;
     font-weight: 500;
 }
@@ -59,11 +66,12 @@ select {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #333;
+    border: 1px solid #444;
     border-radius: 4px;
     background-color: #333;
     color: #e0e0e0;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 button {
@@ -86,9 +94,11 @@ button:hover {
 
 #result {
     margin-top: 25px;
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 1.6;
     text-align: center;
     clear: both;
     padding: 15px;
+    background: #2d2d2d;
+    border-radius: 4px;
 }
