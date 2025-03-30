@@ -7,18 +7,18 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 8px;
 }
 
 h1 {
     text-align: center;
     color: #bb86fc;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .calculator {
     background: #1e1e1e;
-    padding: 15px;
+    padding: 12px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -39,73 +39,46 @@ table {
     border-spacing: 0;
 }
 
-tr {
-    display: block;
-}
-
-/* Add extra spacing after specific fields */
-tr:has(#item1-name),
-tr:has(#item2-name),
-tr:has(#item1-unit-type),
-tr:has(#item2-unit-type),
-tr:has(#item1-price),
-tr:has(#item2-price),
-tr:has(#item1-sale),
-tr:has(#item2-sale) {
-    margin-bottom: 20px;
-}
-
-/* Regular spacing for other rows */
-tr:not(:has(#item1-name)):not(:has(#item2-name)):not(:has(#item1-unit-type)):not(:has(#item2-unit-type)):not(:has(#item1-price)):not(:has(#item2-price)):not(:has(#item1-sale)):not(:has(#item2-sale)) {
-    margin-bottom: 8px;
-}
-
 td {
-    padding: 3px 0;
-    vertical-align: top;
-}
-
-td:first-child {
-    width: 45%;
-    padding-right: 10px;
+    display: block;
+    padding: 0;
 }
 
 label {
-    display: inline-block;
-    white-space: normal;
-    line-height: 1.2;
-}
-
-/* Add spacing after specific fields */
-#item1-name, #item2-name,
-#item1-unit-type, #item2-unit-type,
-#item1-price, #item2-price,
-#item1-sale, #item2-sale {
-    margin-bottom: 20px;
+    display: block;
+    margin-bottom: 4px;
 }
 
 input[type="text"],
 input[type="number"],
 select {
     width: 100%;
-    padding: 8px;
+    padding: 6px;
     border: 1px solid #444;
     border-radius: 4px;
     background-color: #333;
     color: #e0e0e0;
     box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+/* Add extra space after these specific fields */
+#item1-name, #item2-name,
+#item1-unit-type, #item2-unit-type,
+#item1-price, #item2-price {
+    margin-bottom: 12px;
 }
 
 button {
     display: block;
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     background-color: #bb86fc;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 button:hover {
@@ -113,10 +86,10 @@ button:hover {
 }
 
 #result {
-    margin-top: 15px;
+    margin-top: 12px;
     text-align: center;
     clear: both;
-    padding: 10px;
+    padding: 8px;
     background: #2d2d2d;
     border-radius: 4px;
 }
