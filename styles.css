@@ -7,18 +7,18 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 8px;
+    padding: 10px;
 }
 
 h1 {
     text-align: center;
     color: #bb86fc;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .calculator {
     background: #1e1e1e;
-    padding: 12px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -53,7 +53,7 @@ input[type="text"],
 input[type="number"],
 select {
     width: 100%;
-    padding: 6px;
+    padding: 8px;
     border: 1px solid #444;
     border-radius: 4px;
     background-color: #333;
@@ -72,13 +72,13 @@ select {
 button {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     background-color: #bb86fc;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 button:hover {
@@ -86,10 +86,10 @@ button:hover {
 }
 
 #result {
-    margin-top: 12px;
+    margin-top: 15px;
     text-align: center;
     clear: both;
-    padding: 8px;
+    padding: 10px;
     background: #2d2d2d;
     border-radius: 4px;
 }
