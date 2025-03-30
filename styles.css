@@ -1,24 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: black;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
+    padding: 10px;
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    color: #bb86fc;
+    margin-bottom: 15px;
 }
 
 .calculator {
+    background: #1e1e1e;
     padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .item-table {
@@ -36,21 +39,24 @@ input[type="number"],
 select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 4px;
-    margin-bottom: 0;
+    background-color: #333;
+    color: #e0e0e0;
+    box-sizing: border-box;
+    margin-bottom: 8px;
 }
 
 label {
     display: block;
-    margin-bottom: 0;
+    margin-bottom: 2px;
 }
 
 button {
     display: block;
     width: 100%;
     padding: 12px;
-    background-color: #4CAF50;
+    background-color: #bb86fc;
     color: white;
     border: none;
     border-radius: 4px;
@@ -59,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #9c4dcc;
 }
 
 #result {
@@ -67,6 +73,6 @@ button:hover {
     text-align: center;
     clear: both;
     padding: 10px;
-    background: white;
+    background: #2d2d2d;
     border-radius: 4px;
 }
